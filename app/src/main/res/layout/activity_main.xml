@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="401dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/a"
+        android:id="@+id/pic1"
+        android:onClick="onClick"
+        />
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="410dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/s"
+        android:id="@+id/pic2"
+        android:visibility="gone"
+        android:onClick="onClick"
+        />
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="390dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/d"
+        android:id="@+id/pic3"
+        android:visibility="gone"
+        android:onClick="onClick"
+        />
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="390dp"
+        android:scaleType="center"
+        android:src="@drawable/f"
+        android:id="@+id/pic4"
+        android:visibility="gone"
+        android:onClick="onClick"
+        />
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="390dp"
+        android:scaleType="center"
+        android:src="@drawable/g"
+        android:id="@+id/pic5"
+        android:visibility="gone"
+        android:onClick="onClick"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="call 0377778888"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
